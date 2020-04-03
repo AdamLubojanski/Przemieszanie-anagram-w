@@ -43,14 +43,6 @@ void zmiana::wczytaj(){
 		cout<<sort[i]<<endl;;
 		i++;
 	}
-	
-	for(int j=0;j<i;j++){
-		if(sort[j]==sort[j+1]){
-			plik2<<"{\"slowo"<<"\":\""<<orginal[j]<<"\",\"anagram\":\""<<orginal[j+1]<<"\"},";
-		}
-	}
-	
-	plik2<<"]";
 
 }
 
